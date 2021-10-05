@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Annotate</title>
+</head>
+
+<body>
+
+  <p>Chi tiết các trường thông tin được diễn giải như bên dưới:</p>
+  <div class="table_news_scroll">
+    <div class="table_scroll">
+      <table border="1" cellpadding="1" cellspacing="1" class="tablenewsscroll" style="width:660px;">
+        <tbody>
+          <tr>
+            <td style="text-align: center;"><strong>STT</strong></td>
+            <td>
+              <p style="text-align: center;"><strong>Tên trường thông tin</strong></p>
+            </td>
+            <td style="text-align: center;"><strong>Giải thích</strong></td>
+            <td style="text-align: center;"><strong>Ghi chú</strong></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">1</td>
+            <td>
+              <p style="text-align: center;"><strong>SoGiayTo</strong></p>
+            </td>
+            <td>
+              <p style="text-align: left;">Số giấy tờ cá nhân của người dân (số CCCD, CMND, số hộ chiếu).</p>
+              <p style="text-align: left;">Trên các nền tảng, ứng dụng&nbsp;phòng, chống dịch COVID-19, hỗ trợ hiển thị số giấy tờ cá nhân&nbsp;ở hai chế độ:</p>
+              <p style="text-align: left;">- Chế độ hiển thị mặc định: Số giấy tờ cá nhân ẩn bớt 6 ký tự đầu tiên bằng
+                cách thay thế bằng ký tự dấu sao (*).</p>
+              <p style="text-align: left;">- Chế độ hiển thị đầy đủ: hiển thị đầy đủ số giấy tờ cá nhân.</p>
+              <p style="text-align: left;">Các nền tảng, ứng dụng&nbsp;phòng, chống dịch Covid-19&nbsp;cần có chức năng
+                để người dùng có thể lựa chọn chuyển đổi nhanh các chế độ hiển thị nói trên.</p>
+            </td>
+            <td>
+              <p style="text-align: left;">Bắt buộc hiển thị với QR cá nhân có được bởi người dùng tự khai.</p>
+              <p style="text-align: left;">Không bắt buộc hiển thị với QR cá nhân có được bởi người dùng được khai hộ.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">2</td>
+            <td>
+              <p style="text-align: center;"><strong>HoTen</strong></p>
+            </td>
+            <td>
+              <p style="text-align: left;">Họ và tên người dân, viết hoa, không dấu, mỗi từ cách nhau
+                bởi&nbsp;01&nbsp;ký tự khoảng trắng (space).</p>
+            </td>
+            <td>
+              <p style="text-align: left;">Bắt buộc.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">3</td>
+            <td>
+              <p style="text-align: center;"><strong>NgaySinh</strong></p>
+            </td>
+            <td>
+              <p style="text-align: left;">Chuỗi ngày tháng năm sinh theo định dạng:&nbsp;YYYY-MM-DD.</p>
+              <p style="text-align: left;">Trên các nền tảng, ứng dụng&nbsp;phòng, chống dịch COVID-19, hỗ trợ hiển thị
+                chuỗi ngày tháng năm sinh&nbsp;ở hai chế độ:</p>
+              <p style="text-align: left;">- Chế độ hiển thị mặc định: Chuỗi ngày tháng năm sinh&nbsp;ẩn bớt các ký tự
+                ngày và tháng bằng cách thay thế bằng ký tự dấu sao (*).</p>
+              <p style="text-align: left;">- Chế độ hiển thị đầy đủ: Hiển thị đầy đủ chuỗi ngày tháng năm sinh.</p>
+              <p style="text-align: left;">Các nền tảng, ứng dụng&nbsp;phòng, chống dịch Covid-19&nbsp;cần có chức năng
+                để người dùng có thể lựa chọn chuyển đổi nhanh các chế độ hiển thị nói trên.</p>
+            </td>
+            <td>
+              <p style="text-align: left;">Bắt buộc.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">4</td>
+            <td>
+              <p style="text-align: center;"><strong>LoaiDinhDanh</strong></p>
+            </td>
+            <td>
+              <p style="text-align: left;">Loại định danh gồm&nbsp;các&nbsp;giá trị&nbsp;quy ước:</p>
+              <p style="text-align: left;">- 0: Người dùng tự khai;</p>
+              <p style="text-align: left;">- 1: Người dùng khai hộ.</p>
+            </td>
+            <td>
+              <p style="text-align: left;">Bắt buộc.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">5</td>
+            <td>
+              <p style="text-align: center;"><strong>QID</strong></p>
+            </td>
+            <td>
+              <p style="text-align: left;">Mã người dùng do nền tảng QRQG cấp,&nbsp;﻿kiểu dữ liệu là chuỗi ký tự.</p>
+            </td>
+            <td>
+              <p style="text-align: left;">Bắt buộc.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">6</td>
+            <td>
+              <p style="text-align: center;"><strong>EXT</strong></p>
+            </td>
+            <td>
+              <p style="text-align: left;">Các giá trị mở rộng khác như:</p>
+              <p style="text-align: left;">1) QID của người khai hộ&nbsp;(trong trường hợp&nbsp;là mã QR cá nhân có được
+                bởi người dùng&nbsp;khai hộ).</p>
+              <p style="text-align: left;">2) Giới tính (theo QCVN 109:2017/BTTTT);</p>
+              <p style="text-align: left;">3) Mã&nbsp;số&nbsp;thẻ&nbsp;BHYT;</p>
+              <p style="text-align: left;">4) Số điện thoại (gồm 10 ký tự số);</p>
+              <p style="text-align: left;">5) Chữ ký điện tử…</p>
+              <p style="text-align: left;">và các thông tin khác theo nhu cầu thực tiễn.</p>
+            </td>
+            <td>
+              <p style="text-align: left;">Tuỳ chọn&nbsp;và&nbsp;các giá trị theo thứ tự&nbsp;được phân định nhau bởi
+                dấu “&lt;”.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
